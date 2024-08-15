@@ -92,12 +92,6 @@ To view the generated CSV and PNG files on your local machine, use the following
    scp ml7612@shiny.bio.nyu.edu:/home/usage_trace/usage_stats_YYYY-MM-DD.csv /local/path/
    ```
 
-2. **Download the PNG file**:
-
-   ```sh
-   scp ml7612@shiny.bio.nyu.edu:/home/usage_trace/usage_stats_YYYY-MM-DD.png /local/path/
-   ```
-
 Replace `YYYY-MM-DD` with the actual date the files were generated.
 
 ### Using Paramiko for Automated File Download
